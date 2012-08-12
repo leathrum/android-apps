@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">MathJax App - Full</string>
+	<string name="enter_tex">Enter TeX here:</string>
+	<string name="show">Show</string>
+	<string name="clear">Clear</string>
+	<string name="example">Example</string>
+		
+	<string-array name="tex_examples">
+		<item>\\int_{-\\infty}^{\\infty} e^{-x^2}\\, dx = \\sqrt{\\pi}</item>
+		<item>\\sum_{n=1}^{\\infty}\\frac1{n^2}=\\frac{\\pi^2}6</item>
+		<item>\\int_a^b f(x)\\, dx = F(b) - F(a)\\ \\text{where}\\ F\'(x)=f(x)</item>
+		<item>\\left[\\begin{array}{cc}\\cos\\theta &amp; \\sin\\theta \\\\ \\sin\\theta &amp; -\\cos\\theta \\end{array}\\right]</item>
+		<item>\\iint_D (\\vec\\nabla\\times\\vec F)\\cdot\\vec n\\ dS = \\oint_{\\partial D} \\vec F\\cdot d\\vec r</item>
+		<item>x=\\frac{-b\\pm\\sqrt{b^2-4ac}}{2a}</item>
+		<item>f(z_0)= \\frac1{2\\pi i}\\oint_\\gamma \\frac{f(z)}{z-z_0} dz</item>
+	</string-array>
+	<string name="links">Links: &lt;a href=\"http://www.mathjax.org\">MathJax.org&lt;/a> || &lt;a href=\"http://www.mathjax.org/docs/2.0/tex.html\">TeX support&lt;/a> || &lt;a href=\"http://www.onemathematicalcat.org/MathJaxDocumentation/TeXSyntax.htm\">commands with examples&lt;/a></string> 
+	
+</resources>
