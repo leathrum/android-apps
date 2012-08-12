@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+	<TextView
+		android:id="@+id/textview2"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="0"		
+		android:textSize="20dp"
+		android:text="@+string/enter_tex"/>
+	<EditText
+		android:id="@+id/edit"
+		android:layout_width="fill_parent"
+		android:layout_height="150dp"
+		android:layout_weight="0"		
+		android:gravity="top"
+		android:inputType="textFilter|textMultiLine"
+		android:textSize="20dp" />
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="0"	
+		android:orientation="horizontal" >
+		<Button
+			android:id="@+id/button2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@+string/show"/>
+		<Button
+			android:id="@+id/button3"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@+string/clear"/>
+		<Button
+			android:id="@+id/button4"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@+string/example"/>
+		<Button
+			android:id="@+id/button5"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@+string/urllabel"/>			
+	</LinearLayout>
+	<WebView
+		android:id="@+id/webview"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"/>	
+	<TextView
+		android:id="@+id/textview3"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_weight="0"		
+		android:textSize="20dp"
+		android:text="@+string/links"/>		
+</LinearLayout>
