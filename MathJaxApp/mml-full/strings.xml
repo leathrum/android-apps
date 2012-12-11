@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">MathJax MathML App - Full</string>
+	<string name="enter_mml">Enter MathML here:</string>
+	<string name="show">Show</string>
+	<string name="clear">Clear</string>
+	<string name="example">Example</string>
+
+	<string-array name="mml_examples">
+		
+		<item>&lt;msub>\n
+			&lt;mi>J&lt;/mi>\n
+			&lt;mi>&amp;#x03B1;&lt;!-- α -->&lt;/mi>\n
+		&lt;/msub>\n
+		&lt;mo stretchy=\"false\">(&lt;/mo>\n
+		&lt;mi>x&lt;/mi>\n
+		&lt;mo stretchy=\"false\">)&lt;/mo>\n
+		&lt;mo>=&lt;/mo>\n
+		&lt;munderover>\n
+			&lt;mo movablelimits=\"false\">&amp;#x2211;&lt;!-- ∑ -->&lt;/mo>\n
+			&lt;mrow class=\"MJX-TeXAtom-ORD\">\n
+				&lt;mi>m&lt;/mi>\n
+				&lt;mo>=&lt;/mo>\n
+				&lt;mn>0&lt;/mn>\n
+			&lt;/mrow>\n
+			&lt;mi mathvariant=\"normal\">&amp;#x221E;&lt;!-- ∞ -->&lt;/mi>\n
+		&lt;/munderover>\n
+		&lt;mfrac>\n
+			&lt;mrow>\n
+				&lt;mo stretchy=\"false\">(&lt;/mo>\n
+				&lt;mo>&amp;#x2212;&lt;!-- − -->&lt;/mo>\n
+				&lt;mn>1&lt;/mn>\n
+				&lt;msup>\n
+					&lt;mo stretchy=\"false\">)&lt;/mo>\n
+					&lt;mi>m&lt;/mi>\n
+				&lt;/msup>\n
+			&lt;/mrow>\n
+			&lt;mrow>\n
+				&lt;mi>m&lt;/mi>\n
+				&lt;mo>!&lt;/mo>\n
+				&lt;mspace width=\"thinmathspace\" />\n
+				&lt;mi mathvariant=\"normal\">&amp;#x0393;&lt;!-- Γ -->&lt;/mi>\n
+				&lt;mo stretchy=\"false\">(&lt;/mo>\n
+				&lt;mi>m&lt;/mi>\n
+				&lt;mo>+&lt;/mo>\n
+				&lt;mi>&amp;#x03B1;&lt;!-- α -->&lt;/mi>\n
+				&lt;mo>+&lt;/mo>\n
+				&lt;mn>1&lt;/mn>\n
+				&lt;mo stretchy=\"false\">)&lt;/mo>\n
+			&lt;/mrow>\n
+		&lt;/mfrac>\n
+		&lt;msup>\n
+			&lt;mrow class=\"MJX-TeXAtom-ORD\">\n
+				&lt;mfenced open="(" close=")">\n
+					&lt;mrow class="MJX-TeXAtom-ORD">\n
+						&lt;mfrac>\n
+							&lt;mi>x&lt;/mi>\n
+							&lt;mn>2&lt;/mn>\n
+						&lt;/mfrac>\n
+					&lt;/mrow>\n
+				&lt;/mfenced>\n
+			&lt;/mrow>\n
+			&lt;mrow class=\"MJX-TeXAtom-ORD\">\n
+				&lt;mn>2&lt;/mn>\n
+				&lt;mi>m&lt;/mi>\n
+				&lt;mo>+&lt;/mo>\n
+				&lt;mi>&amp;#x03B1;&lt;!-- α -->&lt;/mi>\n
+			&lt;/mrow>\n
+		&lt;/msup></item>
+
+	</string-array>
+	<string name="links">Links: &lt;a href=\"http://www.mathjax.org\">MathJax.org&lt;/a> || &lt;a href=\"http://www.mathjax.org/docs/2.0/tex.html\">TeX support&lt;/a> || &lt;a href=\"http://www.onemathematicalcat.org/MathJaxDocumentation/TeXSyntax.htm\">commands with examples&lt;/a></string> 
+
+</resources>
